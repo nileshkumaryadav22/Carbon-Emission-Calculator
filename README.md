@@ -82,7 +82,7 @@ Log consumption across 5 distinct categories, with instant real-time calculation
    ```env
    PORT=5000
    MONGO_URI=mongodb://127.0.0.1:27017/eco_trace
-   JWT_SECRET=super_secret_key_12345
+   JWT_SECRET=super
    GEMINI_API_KEY=your_gemini_api_key_here  # Optional (falls back to local NLP bot if empty)
    ```
 
@@ -113,11 +113,11 @@ Log consumption across 5 distinct categories, with instant real-time calculation
 To test the application immediately with pre-populated graphs, leaderboard entries, and metrics, use these seeded credentials at the login screen:
 
 ### 👤 Standard User Profile
-* **Email**: `niles@carbon.com`
-* **Password**: `password123`
+* **Email**: your's
+* **Password**: your's
 * *Contains: 6 months of historical footprint data, unlocked badges, and leaderboard entries.*
 
 ### 🔑 Platform Administrator
-* **Email**: `admin@carbon.com`
-* **Password**: `admin123`
+* **Email**: 
+* **Password**: 
 * *Contains: Full access to the Admin Dashboard (delete users, review platform metrics, category ratios).*
